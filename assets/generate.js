@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", (event) => {
+generateAttestationPdf = () => {
     var data = window.location.hash.substr(1);
     if(!data){
         // Stay compatible with previous version search param
@@ -31,5 +31,5 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 
     document.getElementById("generate-btn").click()
-});
+};
 
