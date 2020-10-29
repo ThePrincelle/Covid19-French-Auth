@@ -14,6 +14,7 @@
         </div>
         <div style="display: none">
             <form id="form-profile">
+                <p class="msg-alert hidden">Veuillez choisir un motif</p>
                 <input id="field-firstname" name="firstname" required="" type="text"></input>
                 <input id="field-lastname" name="lastname" required="" type="text"></input>
                 <input id="field-birthday" maxlength="10" required="" type="text"></input>     
@@ -34,6 +35,7 @@
                 <input id="checkbox-enfants" name="field-reason" type="checkbox" value="enfants"></input>
             </form>
             <button type="button" id="generate-btn">Générer mon attestation</button>
+            <div class="bg-primary d-none" id="snackbar"> L'attestation est téléchargée sur votre appareil. </div>
         </div>
         <p id="version" style="display: none">2020 - 1.0.6-e38dfbf</p>
     </body>
