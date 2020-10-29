@@ -14,33 +14,31 @@
         </div>
         <div style="display: none">
             <form accept-charset="UTF-8" id="form-profile">
-                <input autocomplete="given-name" autofocus="" class="form-control" id="field-firstname" name="firstname" placeholder="Camille" required="" type="text"></input>
-                <input autocomplete="family-name" class="form-control" id="field-lastname" name="lastname" placeholder="Dupont" required="" type="text"></input>
-                <input autocomplete="birthday" class="form-control" id="field-birthday" maxlength="10" name="birthday" placeholder="01/01/1970" required="" type="text"></input>     
-                <input autocomplete="off" class="form-control" id="field-placeofbirth" name="placeofbirth" placeholder="Paris" required="" type="text"></input>
-                <input autocomplete="adress-line1" class="form-control" id="field-address" name="address" placeholder="999 avenue de France" required="" type="text"></input>
-                <input autocomplete="address-level2" class="form-control" id="field-city" name="city" placeholder="Paris" required="" type="text"></input>
-                <input autocomplete="postal-code" class="form-control" id="field-zipcode" inputmode="numeric" max="99999" maxlength="5" min="1000" minlength="4" name="zipcode" placeholder="75001" required="" type="number"></input>
-                <input autocomplete="" class="form-control" id="field-datesortie" name="datesortie" placeholder="" required="" type="date"></input>
-                <input autocomplete="" class="form-control" id="field-heuresortie" name="heuresortie" placeholder="" required="" type="time"></input>
+                <input id="field-firstname" name="firstname" required="" type="text"></input>
+                <input id="field-lastname" name="lastname" required="" type="text"></input>
+                <input id="field-birthday" maxlength="10" required="" type="text"></input>     
+                <input id="field-placeofbirth" name="placeofbirth" required="" type="text"></input>
+                <input id="field-address" name="address" required="" type="text"></input>
+                <input id="field-city" name="city" required="" type="text"></input>
+                <input id="field-zipcode" name="zipcode" required="" type="number"></input>
+                <input id="field-datesortie" name="datesortie" required="" type="date"></input>
+                <input id="field-heuresortie" name="heuresortie" required="" type="time"></input>
                 <div class="form-checkbox">
-                    <input class="form-check-input" id="checkbox-travail" name="field-reason" type="checkbox" value="travail"></input>
-                    <input class="form-check-input" id="checkbox-achats" name="field-reason" type="checkbox" value="achats"></input>
-                    <input class="form-check-input" id="checkbox-sante" name="field-reason" type="checkbox" value="sante"></input>
-                    <input class="form-check-input" id="checkbox-famille" name="field-reason" type="checkbox" value="famille"></input>
-                    <input class="form-check-input" id="checkbox-handicap" name="field-reason" type="checkbox" value="handicap"></input>
-                    <input class="form-check-input" id="checkbox-sport_animaux" name="field-reason" type="checkbox" value="sport_animaux"></input>
-                    <input class="form-check-input" id="checkbox-convocation" name="field-reason" type="checkbox" value="convocation"></input>
-                    <input class="form-check-input" id="checkbox-missions" name="field-reason" type="checkbox" value="missions"></input>
-                    <input class="form-check-input" id="checkbox-enfants" name="field-reason" type="checkbox" value="enfants"></input>
+                    <input id="checkbox-travail" name="field-reason" type="checkbox" value="travail"></input>
+                    <input id="checkbox-achats" name="field-reason" type="checkbox" value="achats"></input>
+                    <input id="checkbox-sante" name="field-reason" type="checkbox" value="sante"></input>
+                    <input id="checkbox-famille" name="field-reason" type="checkbox" value="famille"></input>
+                    <input id="checkbox-handicap" name="field-reason" type="checkbox" value="handicap"></input>
+                    <input id="checkbox-sport_animaux" name="field-reason" type="checkbox" value="sport_animaux"></input>
+                    <input id="checkbox-convocation" name="field-reason" type="checkbox" value="convocation"></input>
+                    <input id="checkbox-missions" name="field-reason" type="checkbox" value="missions"></input>
+                    <input id="checkbox-enfants" name="field-reason" type="checkbox" value="enfants"></input>
                 </div>
             </form>
             <button type="button" id="generate-btn" class="btn btn-primary btn-attestation">Générer mon attestation</button>
         </div>
         <p id="version" style="display: none">2020 - 1.0.6-e38dfbf</p>
     </body>
-    <script src="https://media.interieur.gouv.fr/deplacement-covid-19/main.859e2903.js">
-    </script>
-    <script src="generate.js">
-    </script>
+    <script src="https://media.interieur.gouv.fr/deplacement-covid-19/main.859e2903.js"></script>
+    <script src="generate.js"></script>
 </html>
