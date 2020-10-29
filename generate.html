@@ -10,10 +10,10 @@
         </meta>
     </head>
     <body>
-        <div style="display: block; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background: url('//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Phi_fenomeni.gif/50px-Phi_fenomeni.gif') 50% 50% no-repeat rgb(249,249,249);">
+        <div style="display: block; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background: url('/spinner.gif') 50% 50% no-repeat rgb(249,249,249);">
         </div>
         <div style="display: none">
-            <form accept-charset="UTF-8" id="form-profile">
+            <form id="form-profile">
                 <input id="field-firstname" name="firstname" required="" type="text"></input>
                 <input id="field-lastname" name="lastname" required="" type="text"></input>
                 <input id="field-birthday" maxlength="10" required="" type="text"></input>     
@@ -23,19 +23,17 @@
                 <input id="field-zipcode" name="zipcode" required="" type="number"></input>
                 <input id="field-datesortie" name="datesortie" required="" type="date"></input>
                 <input id="field-heuresortie" name="heuresortie" required="" type="time"></input>
-                <div class="form-checkbox">
-                    <input id="checkbox-travail" name="field-reason" type="checkbox" value="travail"></input>
-                    <input id="checkbox-achats" name="field-reason" type="checkbox" value="achats"></input>
-                    <input id="checkbox-sante" name="field-reason" type="checkbox" value="sante"></input>
-                    <input id="checkbox-famille" name="field-reason" type="checkbox" value="famille"></input>
-                    <input id="checkbox-handicap" name="field-reason" type="checkbox" value="handicap"></input>
-                    <input id="checkbox-sport_animaux" name="field-reason" type="checkbox" value="sport_animaux"></input>
-                    <input id="checkbox-convocation" name="field-reason" type="checkbox" value="convocation"></input>
-                    <input id="checkbox-missions" name="field-reason" type="checkbox" value="missions"></input>
-                    <input id="checkbox-enfants" name="field-reason" type="checkbox" value="enfants"></input>
-                </div>
+                <input id="checkbox-travail" name="field-reason" type="checkbox" value="travail"></input>
+                <input id="checkbox-achats" name="field-reason" type="checkbox" value="achats"></input>
+                <input id="checkbox-sante" name="field-reason" type="checkbox" value="sante"></input>
+                <input id="checkbox-famille" name="field-reason" type="checkbox" value="famille"></input>
+                <input id="checkbox-handicap" name="field-reason" type="checkbox" value="handicap"></input>
+                <input id="checkbox-sport_animaux" name="field-reason" type="checkbox" value="sport_animaux"></input>
+                <input id="checkbox-convocation" name="field-reason" type="checkbox" value="convocation"></input>
+                <input id="checkbox-missions" name="field-reason" type="checkbox" value="missions"></input>
+                <input id="checkbox-enfants" name="field-reason" type="checkbox" value="enfants"></input>
             </form>
-            <button type="button" id="generate-btn" class="btn btn-primary btn-attestation">Générer mon attestation</button>
+            <button type="button" id="generate-btn">Générer mon attestation</button>
         </div>
         <p id="version" style="display: none">2020 - 1.0.6-e38dfbf</p>
     </body>
