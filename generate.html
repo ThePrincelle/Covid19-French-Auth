@@ -23,15 +23,18 @@
                 <input id="field-zipcode" name="zipcode" required="" type="number"></input>
                 <input id="field-datesortie" name="datesortie" required="" type="date"></input>
                 <input id="field-heuresortie" name="heuresortie" required="" type="time"></input>
-                <input id="checkbox-travail" name="field-reason" type="checkbox" value="travail"></input>
-                <input id="checkbox-achats" name="field-reason" type="checkbox" value="achats"></input>
-                <input id="checkbox-sante" name="field-reason" type="checkbox" value="sante"></input>
-                <input id="checkbox-famille" name="field-reason" type="checkbox" value="famille"></input>
-                <input id="checkbox-handicap" name="field-reason" type="checkbox" value="handicap"></input>
-                <input id="checkbox-sport_animaux" name="field-reason" type="checkbox" value="sport_animaux"></input>
-                <input id="checkbox-convocation" name="field-reason" type="checkbox" value="convocation"></input>
-                <input id="checkbox-missions" name="field-reason" type="checkbox" value="missions"></input>
-                <input id="checkbox-enfants" name="field-reason" type="checkbox" value="enfants"></input>
+
+                <fieldset id="reason-fieldset" class="fieldset">
+                    <input id="checkbox-travail" name="field-reason" type="checkbox" value="travail"></input>
+                    <input id="checkbox-achats" name="field-reason" type="checkbox" value="achats"></input>
+                    <input id="checkbox-sante" name="field-reason" type="checkbox" value="sante"></input>
+                    <input id="checkbox-famille" name="field-reason" type="checkbox" value="famille"></input>
+                    <input id="checkbox-handicap" name="field-reason" type="checkbox" value="handicap"></input>
+                    <input id="checkbox-sport_animaux" name="field-reason" type="checkbox" value="sport_animaux"></input>
+                    <input id="checkbox-convocation" name="field-reason" type="checkbox" value="convocation"></input>
+                    <input id="checkbox-missions" name="field-reason" type="checkbox" value="missions"></input>
+                    <input id="checkbox-enfants" name="field-reason" type="checkbox" value="enfants"></input>
+                </fieldset>
             </form>
             <button type="button" id="generate-btn">Générer mon attestation</button>
             <div class="bg-primary d-none" id="snackbar"> L'attestation est téléchargée sur votre appareil. </div>
