@@ -15,14 +15,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("field-town").value = urlParams.get("c"); //city
     document.getElementById("field-zipcode").value = urlParams.get("z"); //zipcode
     const reason = urlParams.get("r"); //reason
-    document.getElementById("radio-travail").checked = (reason==='travail');
-    document.getElementById("radio-sante").checked = (reason==='sante');
-    document.getElementById("radio-famille").checked = (reason==='famille');
-    document.getElementById("radio-handicap").checked = (reason==='handicap');
-    document.getElementById("radio-convocation").checked = (reason==='convocation');
-    document.getElementById("radio-missions").checked = (reason==='missions');
-    document.getElementById("radio-transits").checked = (reason==='transits');
-    document.getElementById("radio-animaux").checked = (reason==='animaux');
+    document.getElementById("checkbox-travail").checked = (reason==='travail');
+    document.getElementById("checkbox-achats").checked = (reason==='achats');
+    document.getElementById("checkbox-sante").checked = (reason==='sante');
+    document.getElementById("checkbox-famille").checked = (reason==='famille');
+    document.getElementById("checkbox-handicap").checked = (reason==='handicap');
+    document.getElementById("checkbox-sport_animaux").checked = (reason==='sport_animaux');
+    document.getElementById("checkbox-convocation").checked = (reason==='convocation');
+    document.getElementById("checkbox-missions").checked = (reason==='missions');
+    document.getElementById("checkbox-enfants").checked = (reason==='enfants');
 
     var now = new Date()
     document.getElementById('field-datesortie').value = now.toJSON().slice(0,10);
