@@ -27,8 +27,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     var now = new Date()
     document.getElementById('field-datesortie').value = now.toJSON().slice(0,10);
-    document.getElementById('field-heuresortie').value = ("0" + now.getHours()).slice(-2)+":"+now.getMinutes();
-
+    document.getElementById('field-heuresortie').value = (("0" + now.getHours()).slice(-2))+":"+(("0" + now.getMinutes()).slice(-2));
 
     document.getElementById("generate-btn").click()
 });
