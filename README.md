@@ -27,9 +27,11 @@ If you're worried about privacy, checkout the "[installation](#installation)" ch
 
 Specify the parameters directly in the URL : 
 
+```
 http://<server>/generate.html#f=<firstname>&l=<lastname>&b=<birthdate>&p=<birthplace>&a=<address>&c=<city>&z=<zipcode>&r=<reason>
+```
 
-Every parameter should be encoded in URL format. [urlencoder.org](https://www.urlencoder.org/).
+Every parameter should be encoded in URL format. Check [urlencoder.org](https://www.urlencoder.org/).
 
 'Reason' options are :
 - 'travail'
