@@ -24,6 +24,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("checkbox-convocation").checked = (reason==='convocation');
     document.getElementById("checkbox-missions").checked = (reason==='missions');
     document.getElementById("checkbox-enfants").checked = (reason==='enfants');
+    
+    document.getElementById("field-storedata").checked = true;
 
     var now = new Date()
     document.getElementById('field-datesortie').value = now.toJSON().slice(0,10);
