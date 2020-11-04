@@ -9,6 +9,8 @@ See https://media.interieur.gouv.fr/deplacement-covid-19/
 
 This is a pure Vanilla JS implementation. No need to compile anything. Run out-of-the-box.
 
+If the generator isn't up to date anymore with the official one, please notify me so that I can update it.
+
 ## Privacy
 
 No data are sent to the server. Everything is run locally on your browser.
