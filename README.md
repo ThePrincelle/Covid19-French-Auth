@@ -11,6 +11,8 @@ This is a pure Vanilla JS implementation. No need to compile anything. Run out-o
 
 If the generator isn't up to date anymore with the official one, please notify me so that I can update it.
 
+I've build an [iOS shorcut](https://www.icloud.com/shortcuts/2c16817138874314829828f81f01358b) that uses this generator to get an attestation in a second.
+
 ## Privacy
 
 No data are sent to the server. Everything is run locally on your browser.
