@@ -1,5 +1,7 @@
 # Covid19-French-Auth
 
+[![Build Status](https://jenkins.princelle.org/buildStatus/icon?job=Attestation-Covid&style=flat-square)](https://jenkins.princelle.org/job/Attestation-Covid/)
+
 Forked from [GetLuko/Covid19-French-Auth](https://github.com/GetLuko/Covid19-French-Auth)
 
 ⚠️By respect to our medical staff, please respect the social distancing, the governement rules and the barrier gestures.⚠️
