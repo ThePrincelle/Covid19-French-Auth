@@ -1,0 +1,25 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Jenkins Princelle
+
+on:
+  # Triggers the workflow on push
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy on Infomaniak infrastructure
+        # You may pin to the exact commit or the version.
+        # uses: GoldenspearLLC/build-jenkins-job@ba59c17c14a8883af2d7f9a7c1153c1284f7c1c6
+        uses: GoldenspearLLC/build-jenkins-job@1.0.0
+        with:
+          jenkins-url: https://jenkins.princelle.org/
+          jenkins-token: ${{ secrets.JENKINS_TOKEN }}
+          user: maxime
+          job-path: job/Attestation-Covid
