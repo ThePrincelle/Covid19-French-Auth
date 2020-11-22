@@ -1,6 +1,6 @@
 # Covid19-French-Auth
 
-[![Build Status](https://jenkins.princelle.org/buildStatus/icon?job=Attestation-Covid&style=flat-square)](https://jenkins.princelle.org/job/Attestation-Covid/)
+![Build Status](https://jenkins.princelle.org/buildStatus/icon?job=Attestation-Covid&style=flat-square)
 
 Forked from [GetLuko/Covid19-French-Auth](https://github.com/GetLuko/Covid19-French-Auth)
 
