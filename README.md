@@ -19,9 +19,7 @@ I've build an [iOS shorcut](https://www.icloud.com/shortcuts/2c16817138874314829
 
 No data are sent to the server. Everything is run locally on your browser.
 
-A hosted version is available at : 
-- attestation-covid.princelle.org
-- covid.princelle.org
+A hosted version is available at : attestation-covid.princelle.org
 
 The hosted version only counts the number of users and "attestations" generated, in order to manage the traffic.
 
