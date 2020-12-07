@@ -38,7 +38,10 @@ http://<server>/generate.html#f=<firstname>&l=<lastname>&b=<birthdate>&p=<birthp
 Every parameter should be encoded in URL format. Check [urlencoder.org](https://www.urlencoder.org/).
 
 'Reason' options are :
+- 'examen'
 - 'travail'
+- 'cultuel'
+- 'culturel'
 - 'achats'
 - 'sante'
 - 'famille'

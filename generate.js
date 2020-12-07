@@ -15,8 +15,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("field-city").value = urlParams.get("c"); //city
     document.getElementById("field-zipcode").value = urlParams.get("z"); //zipcode
     const reason = urlParams.get("r"); //reason
-    document.getElementById("checkbox-travail").checked = (reason==='travail');
-    document.getElementById("checkbox-achats").checked = (reason==='achats');
+    document.getElementById("checkbox-travail").checked = (reason==='travail' || reason=='examen');
+    document.getElementById("checkbox-achats_culturel_cultuel").checked = (reason==='cultuel' || reason==='culturel' || reason==='achats');
     document.getElementById("checkbox-sante").checked = (reason==='sante');
     document.getElementById("checkbox-famille").checked = (reason==='famille');
     document.getElementById("checkbox-handicap").checked = (reason==='handicap');
