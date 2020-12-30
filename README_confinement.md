@@ -1,6 +1,6 @@
 # Covid19-French-Auth
 
-Mode Deployed : "couvre-feu"
+Mode Deployed : "confinement"
 
 ![Build Status](https://jenkins.princelle.org/buildStatus/icon?job=Attestation-Covid&style=flat-square)
 
@@ -9,7 +9,7 @@ Forked from [GetLuko/Covid19-French-Auth](https://github.com/GetLuko/Covid19-Fre
 By respect to our medical staff, please respect the social distancing, the governement rules and the barrier gestures.⚠️
 
 The goal of this project is to be able to generate the "ATTESTATION DE DÉPLACEMENT DÉROGATOIRE" from the French Government.  
-See https://media.interieur.gouv.fr/attestation-couvre-feu-covid-19/
+See https://media.interieur.gouv.fr/deplacement-covid-19/
 
 This is a pure Vanilla JS implementation. No need to compile anything. Run out-of-the-box.
 
@@ -25,7 +25,7 @@ No data are sent to the server. Everything is run locally on your browser.
 
 A hosted version is available at : attestation-covid.princelle.org
 
-The hosted version currently is for the "couvre-feu" attestation.
+The hosted version currently is for the "confinement" attestation.
 
 The hosted version only counts the number of users and "attestations" generated, in order to manage the traffic.
 
@@ -44,13 +44,16 @@ Every parameter should be encoded in URL format. Check [urlencoder.org](https://
 'Reason' options are :
 - 'examen'
 - 'travail'
+- 'cultuel'
+- 'culturel'
+- 'achats'
 - 'sante'
 - 'famille'
 - 'handicap'
-- 'animaux'
+- 'sport_animaux'
 - 'convocation'
 - 'missions'
-- 'transits'
+- 'enfants'
 
 ## How does it works ?
 
@@ -76,5 +79,5 @@ Then, the official `certificate.js` script from the official website is called t
  * Official website code source : used for `certificate.js` : https://github.com/LAB-MI/deplacement-covid-19
  * Inspired by : 
     * https://twitter.com/Kamidh/status/1247570275442601984
-    * https://www.igen.fr/ios/2020/04/un-raccourci-pour-generer-lattestation-de-deplacement-derogatoire-numerique-114133
+    *  https://www.igen.fr/ios/2020/04/un-raccourci-pour-generer-lattestation-de-deplacement-derogatoire-numerique-114133
 

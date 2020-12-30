@@ -16,13 +16,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("field-zipcode").value = urlParams.get("z"); //zipcode
     const reason = urlParams.get("r"); //reason
     document.getElementById("checkbox-travail").checked = (reason==='travail' || reason=='examen');
+    document.getElementById("checkbox-achats_culturel_cultuel").checked = (reason==='cultuel' || reason==='culturel' || reason==='achats');
     document.getElementById("checkbox-sante").checked = (reason==='sante');
     document.getElementById("checkbox-famille").checked = (reason==='famille');
     document.getElementById("checkbox-handicap").checked = (reason==='handicap');
+    document.getElementById("checkbox-sport_animaux").checked = (reason==='sport_animaux');
     document.getElementById("checkbox-convocation").checked = (reason==='convocation');
     document.getElementById("checkbox-missions").checked = (reason==='missions');
-    document.getElementById("checkbox-transits").checked = (reason==='transits' || reason==='enfants');
-    document.getElementById("checkbox-animaux").checked = (reason==='animaux' || reason=='sport_animaux');
+    document.getElementById("checkbox-enfants").checked = (reason==='enfants');
     
     document.getElementById("field-storedata").checked = true;
 
