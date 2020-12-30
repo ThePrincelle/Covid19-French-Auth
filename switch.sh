@@ -15,11 +15,9 @@ then
 fi
 
 rm generate.html
-rm generate.js
 rm README.md
 
 cp "generate_${GENERATOR}.html" "generate.html"
-cp "generate_${GENERATOR}.js" "generate.js"
 cp "README_${GENERATOR}.md" "README.md"
 
 echo "Done."

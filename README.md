@@ -26,6 +26,7 @@ No data are sent to the server. Everything is run locally on your browser.
 A hosted version is available at : attestation-covid.princelle.org
 
 The hosted version currently is for the "couvre-feu" attestation.
+If you want the other mode : "confinement", replace "generate.html" in the URL by "generate_confinement.html".
 
 The hosted version only counts the number of users and "attestations" generated, in order to manage the traffic.
 
@@ -38,6 +39,8 @@ Specify the parameters directly in the URL :
 ```
 http://<server>/generate.html#f=<firstname>&l=<lastname>&b=<birthdate>&p=<birthplace>&a=<address>&c=<city>&z=<zipcode>&r=<reason>
 ```
+
+If you want the other mode : "confinement", replace "generate.html" in the URL by "generate_confinement.html".
 
 Every parameter should be encoded in URL format. Check [urlencoder.org](https://www.urlencoder.org/).
 
