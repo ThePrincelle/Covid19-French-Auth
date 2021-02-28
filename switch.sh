@@ -2,7 +2,7 @@
 # switch.sh
 
 PS3='Quel genérateur voulez-vous installer ? ( numéro ) '
-options=("confinement" "couvre-feu")
+options=("confinement" "couvre-feu" "deplacement")
 select GENERATOR in "${options[@]}"
 do
     break;
