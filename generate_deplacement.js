@@ -37,7 +37,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   document.getElementById("checkbox-animaux").checked = reason === "animaux";
 
-  document.getElementById("checkbox-courses").checked = rreason == "courses";
+  document.getElementById("checkbox-courses").checked = reason == "courses";
 
   document.getElementById("checkbox-sport").checked = reason === "sport";
 
